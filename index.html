@@ -221,15 +221,15 @@
                 <form class="space-y-6">
                     <div>
                         <label class="block text-sm font-semibold text-gray-300 mb-2">Nombre Completo</label>
-                        <input type="text" placeholder="Tu Nombre" class="input-field">
+                        <input type="text" id="nombre" required placeholder="Tu Nombre" class="input-field">
                     </div>
                     <div>
                         <label class="block text-sm font-semibold text-gray-300 mb-2">Correo Electrónico</label>
-                        <input type="email" placeholder="tu@email.com" class="input-field">
+                        <input type="email" id="email" required placeholder="tu@email.com" class="input-field">
                     </div>
                     <div>
                         <label class="block text-sm font-semibold text-gray-300 mb-2">Mensaje</label>
-                        <textarea rows="4" placeholder="Hablemos de tecnología..." class="input-field resize-none"></textarea>
+                        <textarea id="mensaje" required rows="4" placeholder="Hablemos de tecnología..." class="input-field resize-none"></textarea>
                     </div>
                     <button type="submit" class="w-full bg-[#00f2fe] hover:bg-[#00d4df] text-black font-bold py-4 rounded-xl transition-all transform hover:scale-[1.02] shadow-[0_0_20px_rgba(0,242,254,0.3)]">
                         Enviar Mensaje 🚀
@@ -245,4 +245,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
